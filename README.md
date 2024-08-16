@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Trenton Roney - Portfolio About Me Page
+# 🌐 Trenton Roney - Portfolio
 
 ![Mizzou Logo](https://cdn.learfield.com/wp-content/uploads/2021/10/Mizzou-Seats-for-Service-logo.jpg)
 
