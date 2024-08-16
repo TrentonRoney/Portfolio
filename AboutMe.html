@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+            background: linear-gradient(120deg, #646464, #c4d201);
+            background-size: 200% 200%;
+            animation: gradient 10s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 0% 0%; }
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+        }
+        .section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 2em;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .text {
+            flex: 1;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        .image img {
+            max-width: 300px; /* Adjust this value to change the image size */
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            font-family: 'Jersey 10', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Jersey 10', sans-serif;
+            font-size: 2em;
+            margin-top: 0;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-family: 'Jersey 10', sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        
+        <div class="section">
+            <div class="text">
+                <h2>Introduction</h2>
+                <p>Hello! My name is Trenton Roney, and I am currently pursuing a degree in Computer Science at the University of Missouri. I initially started as a business major and secured an internship at Veterans United Home Loans in the "Business Opportunities" section. During the summer between my freshman and sophomore years, I transitioned to Computer Science while continuing my internship. I have been working at Veterans United as an intern for the past 3 years.</p>
+            </div>
+            <div class="image">
+                <img src="https://www.dropbox.com/scl/fi/kpaf0020k51qon7x1almo/IMG_7572.JPG?rlkey=kfnw3wfjzbodg3cyeum3j3u9w&raw=1" alt="Introduction Image">
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="text">
+                <h2>Collegiate Career</h2>
+                <p>Starting as a freshman, I was initially a business major and secured a "Business Opportunities" internship at Veterans United Home Loans. During the summer between my freshman and sophomore years, I switched my major to Computer Science but continued with my internship. I am still working at Veterans United as an intern and have been there for 3 years. Balancing work and school has been challenging but rewarding. I am currently pursuing my Computer Science degree and am looking for internship opportunities related to my field.</p>
+            </div>
+            <div class="image">
+                <img src="https://cdn.learfield.com/wp-content/uploads/2021/10/Mizzou-Seats-for-Service-logo.jpg" alt="Collegiate Career Image">
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="text">
+                <h2>Interests</h2>
+                <p>I have a deep passion for athletics and am a devoted fan of the Mizzou Tigers football and basketball teams. I enjoy staying active through intramurals and personal workouts. Like most 21-year-old college students, I also love watching sports, playing video games, going on runs, and having a great time.</p>
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/400x300" alt="Interests Image">
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="text">
+                <h2>Traits & Skills</h2>
+                <p>Technically, I am naturally curious and highly coachable. I excel in environments where adaptability and a willingness to learn are crucial, which has been instrumental in my growth and success in Computer Science.</p>
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/400x300" alt="Traits & Skills Image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
