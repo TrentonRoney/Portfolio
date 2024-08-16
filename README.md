@@ -23,7 +23,7 @@ This webpage features:
 
 ## 🖼️ How to View
 
-Simply clone the repository and open `AboutMe.html` in any web browser.
+Simply clone the repository and open `index.html` in any web browser.
 
 ```bash
-git clone https://github.com/YourUsername/your-repo-name.git
+git clone https://github.com/TrentonRoney/Portfolio.git
