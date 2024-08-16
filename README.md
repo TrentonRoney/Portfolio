@@ -1,27 +1,42 @@
+<div align="center">
+
 # 🌐 Trenton Roney - Portfolio About Me Page
 
-Welcome to my **About Me** page! This project showcases my background, experiences, and interests in a visually appealing and interactive format.
+![Mizzou Logo](https://cdn.learfield.com/wp-content/uploads/2021/10/Mizzou-Seats-for-Service-logo.jpg)
+
+</div>
 
 ---
 
-## 🚀 Project Overview
-
-This webpage features:
-- A responsive design with alternating sections for better readability.
-- A dynamic gradient background.
-- Images with adjustable sizes while maintaining their aspect ratio.
+## 🚀 **Project Overview**  
+This webpage serves as a dynamic **portfolio about me page** that showcases my background, experiences, and interests in a visually engaging format.  
 
 ---
 
-## 🎨 Design Highlights
+## 🎨 **Design Highlights**
 
-- **Font:** Jersey 10 - a sleek and modern typeface.
-- **Background:** Animated gradient of gray and lime green.
+<div style="background-color: #f5f5f5; padding: 10px; border-radius: 8px;">
+
+- **Font:** `Jersey 10` - a sleek and modern typeface.  
+- **Background:** Animated gradient of **gray** and **lime green**.  
 - **Layout:** Flexbox-based alternating sections for a left-right flow.
 
+</div>
+
 ---
 
-## 🖼️ How to View
+## 🛠️ **Tech Stack**
+
+<div style="background-color: #e0f7fa; padding: 10px; border-radius: 8px;">
+
+- **HTML5** for content structure.  
+- **CSS3** for styling, animation, and responsive design.
+
+</div>
+
+---
+
+## 🖥️ **Setup Instructions**
 
 Simply clone the repository and open `index.html` in any web browser.
 
